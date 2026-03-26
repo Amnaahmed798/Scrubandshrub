@@ -13,11 +13,13 @@ dist/
 coverage/
 *.log
 
-# Environment variables (keep .env.example instead)
+# Environment variables (NEVER commit these!)
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.production
 
 # IDE
 .vscode/

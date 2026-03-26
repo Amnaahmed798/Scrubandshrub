@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Testing
+coverage/
+*.log
+
+# Environment variables (keep .env.example instead)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# PID files
+*.pid
+
+# ZIP files
+*.zip
+
+# Android (if not needed in repo)
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# Capacitor
+android/app/src/main/assets/public/
+ios/App/App/public/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# TypeScript cache
+*.tsbuildinfo

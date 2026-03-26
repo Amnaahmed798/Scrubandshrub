@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#3B82F6"/>
+  <text x="400" y="120" font-family="Arial" font-size="28" fill="white" text-anchor="middle">Premium Car Wash</text>
+  <text x="400" y="160" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Get 20% off premium car wash services</text>
+  <circle cx="400" cy="230" r="40" fill="#FBBF24" opacity="0.8"/>
+  <path d="M360,230 Q400,200 440,230" stroke="white" stroke-width="3" fill="none"/>
+  <circle cx="370" cy="215" r="5" fill="white"/>
+  <circle cx="430" cy="215" r="5" fill="white"/>
+</svg>

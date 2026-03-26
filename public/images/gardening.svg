@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#f0f0f0" />
+  <!-- Person gardening -->
+  <circle cx="50" cy="30" r="8" fill="#f8d9b7" />
+  <path d="M45,38 L40,50 L45,60" stroke="#f8d9b7" stroke-width="3" fill="none" />
+  <path d="M55,38 L60,50 L55,60" stroke="#f8d9b7" stroke-width="3" fill="none" />
+  <path d="M45,50 L55,50" stroke="#f8d9b7" stroke-width="3" />
+  <!-- Garden tools -->
+  <path d="M65,50 L65,70" stroke="#8b4513" stroke-width="3" />
+  <path d="M62,70 L68,70" stroke="#8b4513" stroke-width="3" />
+  <!-- Plants/trees -->
+  <circle cx="30" cy="70" r="10" fill="#228b22" />
+  <circle cx="45" cy="65" r="12" fill="#32cd32" />
+  <circle cx="75" cy="75" r="8" fill="#228b22" />
+  <!-- Soil -->
+  <rect x="20" y="80" width="60" height="10" fill="#8b4513" />
+</svg>

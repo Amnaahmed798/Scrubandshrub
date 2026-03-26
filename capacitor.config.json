@@ -1,0 +1,59 @@
+{
+  "appId": "com.sandpiper.carwash",
+  "appName": "Sandpiper Car Wash",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "android": {
+    "buildOptions": {
+      "keystorePath": "~/.android/keystores/sandpiper-release.keystore",
+      "keystorePassword": "",
+      "keystoreAlias": "sandpiper",
+      "keystoreAliasPassword": "",
+      "privateKeyPassword": "",
+      "releaseType": "APK"
+    },
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 300,
+      "backgroundColor": "#1a1a1a",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#fbbf24",
+      "splashFullScreen": true,
+      "splashImmersive": true,
+      "layoutName": "launch_screen",
+      "useDialog": true
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark",
+      "resizeOnFullScreen": true
+    },
+    "StatusBar": {
+      "backgroundColor": "#1a1a1a",
+      "style": "light",
+      "visible": true
+    },
+    "Geolocation": {
+      "requestPermissions": true,
+      "requestWhenInUse": true
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"],
+      "requestPermissions": true
+    },
+    "Camera": {
+      "requestPermissions": true
+    }
+  },
+  "cordova": {}
+}
